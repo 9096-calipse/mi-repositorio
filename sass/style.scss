@@ -47,7 +47,12 @@ body {
   height: 28px;
 }
 
+.header__checkbox {
+  display: none;
+}
+
 .header__label {
+  display: none;
   cursor: pointer;
 }
 
@@ -114,6 +119,7 @@ body {
   text-transform: initial;
 }
 
+.highlight__text,
 .highlight__img {
   flex: 1;
   min-width: 280px;
